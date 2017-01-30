@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Tip: to get StopAds actions for a website (reporting and whitelisting), look for StopAds in Safari's action sheet."; ObjectID = "M9G-c4-6ps"; */
+"M9G-c4-6ps.text" = "팁 : 웹 사이트 (보고 및 화이트리스트)에 대한 StopAds 조치를받을 사파리의 액션 시트에 StopAds을 확인합니다.";
+
+/* Class = "UILabel"; text = "Welcome to StopAds!"; ObjectID = "Shv-JY-JNM"; */
+"Shv-JY-JNM.text" = "StopAds에 오신 것을 환영합니다!";
+
+/* Class = "UILabel"; text = "For StopAds to work, it has to be enabled in Safari's settings."; ObjectID = "iwr-Yr-6zs"; */
+"iwr-Yr-6zs.text" = "StopAds이 작동하려면, 그것은 Safari의 설정에서 활성화해야합니다.";
+
+/* Class = "UILabel"; text = "You're all set!"; ObjectID = "qFv-dg-KcU"; */
+"qFv-dg-KcU.text" = "설정 완료!";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "r9M-3c-G64"; */
+"r9M-3c-G64.normalTitle" = "시작";
+
+/* Class = "UIBarButtonItem"; title = "Tour"; ObjectID = "wK8-Hg-Swi"; */
+"wK8-Hg-Swi.title" = "튜토리얼";

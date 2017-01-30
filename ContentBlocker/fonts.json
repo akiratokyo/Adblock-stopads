@@ -1,0 +1,12 @@
+[
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": ".*",
+            "resource-type": [ "font" ],
+            "load-type": [ "first-party", "third-party" ]
+        }
+    }
+]

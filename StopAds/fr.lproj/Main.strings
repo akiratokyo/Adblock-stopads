@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Tip: to get StopAds actions for a website (reporting and whitelisting), look for StopAds in Safari's action sheet."; ObjectID = "M9G-c4-6ps"; */
+"M9G-c4-6ps.text" = "Astuce: pour obtenir actions StopAds pour un site web (reporting et liste blanche), chercher StopAds dans la fiche d'action de Safari.";
+
+/* Class = "UILabel"; text = "Welcome to StopAds!"; ObjectID = "Shv-JY-JNM"; */
+"Shv-JY-JNM.text" = "Bienvenue à StopAds!";
+
+/* Class = "UILabel"; text = "For StopAds to work, it has to be enabled in Safari's settings."; ObjectID = "iwr-Yr-6zs"; */
+"iwr-Yr-6zs.text" = "Pour StopAds fonctionne, il doit être activé dans les paramètres de Safari.";
+
+/* Class = "UILabel"; text = "You're all set!"; ObjectID = "qFv-dg-KcU"; */
+"qFv-dg-KcU.text" = "Vous êtes tous ensemble!";
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "r9M-3c-G64"; */
+"r9M-3c-G64.normalTitle" = "Commencer";
+
+/* Class = "UIBarButtonItem"; title = "Tour"; ObjectID = "wK8-Hg-Swi"; */
+"wK8-Hg-Swi.title" = "Tour";

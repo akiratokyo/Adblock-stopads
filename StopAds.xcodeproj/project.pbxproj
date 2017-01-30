@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4916DEEB1BC6789200E06432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DEEA1BC6789200E06432 /* AppDelegate.swift */; };
+		4916DEF01BC6789200E06432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4916DEEE1BC6789200E06432 /* Main.storyboard */; };
+		4916DEF21BC6789200E06432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4916DEF11BC6789200E06432 /* Assets.xcassets */; };
+		4916DEF51BC6789200E06432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4916DEF31BC6789200E06432 /* LaunchScreen.storyboard */; };
+		4916DEFE1BC678E600E06432 /* Branch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DEFD1BC678E600E06432 /* Branch.framework */; settings = {ASSET_TAGS = (); }; };
+		4916DF091BC6793900E06432 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DF001BC6793900E06432 /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4916DF0A1BC6793900E06432 /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DF011BC6793900E06432 /* TourViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4916DF0B1BC6793900E06432 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DF021BC6793900E06432 /* Utils.swift */; settings = {ASSET_TAGS = (); }; };
+		4916DF0C1BC6793900E06432 /* WhiteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DF031BC6793900E06432 /* WhiteListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		4916DF0D1BC6793900E06432 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF041BC6793900E06432 /* iTunesArtwork */; settings = {ASSET_TAGS = (); }; };
+		4916DF0E1BC6793900E06432 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF051BC6793900E06432 /* iTunesArtwork@2x */; settings = {ASSET_TAGS = (); }; };
+		4916DF0F1BC6793900E06432 /* action-sheet.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF071BC6793900E06432 /* action-sheet.mov */; settings = {ASSET_TAGS = (); }; };
+		4916DF101BC6793900E06432 /* enable-app.mov in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF081BC6793900E06432 /* enable-app.mov */; settings = {ASSET_TAGS = (); }; };
+		4916DF171BC679E100E06432 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DF111BC679E100E06432 /* AdSupport.framework */; };
+		4916DF181BC679E100E06432 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DF121BC679E100E06432 /* AVKit.framework */; };
+		4916DF191BC679E100E06432 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DF131BC679E100E06432 /* CoreSpotlight.framework */; };
+		4916DF1A1BC679E100E06432 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DF141BC679E100E06432 /* CoreTelephony.framework */; };
+		4916DF1B1BC679E100E06432 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DF151BC679E100E06432 /* MobileCoreServices.framework */; };
+		4916DF1C1BC679E100E06432 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4916DF161BC679E100E06432 /* SafariServices.framework */; };
+		4916DF241BC67A0700E06432 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF231BC67A0700E06432 /* blockerList.json */; };
+		4916DF261BC67A0700E06432 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DF251BC67A0700E06432 /* ActionRequestHandler.swift */; };
+		4916DF2A1BC67A0700E06432 /* ContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4916DF211BC67A0700E06432 /* ContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4916DF361BC67A2000E06432 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916DF351BC67A2000E06432 /* ActionViewController.swift */; };
+		4916DF391BC67A2000E06432 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF371BC67A2000E06432 /* MainInterface.storyboard */; };
+		4916DF3D1BC67A2000E06432 /* StopAdsAction.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4916DF331BC67A2000E06432 /* StopAdsAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4916DF551BC67FED00E06432 /* StopAdsAction.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF541BC67FED00E06432 /* StopAdsAction.xcassets */; settings = {ASSET_TAGS = (); }; };
+		4916DF5A1BC6815D00E06432 /* fonts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF561BC6815D00E06432 /* fonts.json */; settings = {ASSET_TAGS = (); }; };
+		4916DF5B1BC6815D00E06432 /* images.json in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF571BC6815D00E06432 /* images.json */; settings = {ASSET_TAGS = (); }; };
+		4916DF5C1BC6815D00E06432 /* scripts.json in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF581BC6815D00E06432 /* scripts.json */; settings = {ASSET_TAGS = (); }; };
+		4916DF5D1BC6815D00E06432 /* social.json in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF591BC6815D00E06432 /* social.json */; settings = {ASSET_TAGS = (); }; };
+		4916DF6A1BC683A400E06432 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4916DF6C1BC683A400E06432 /* Localizable.strings */; };
+		493DA3F61BC82650006EE4EF /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 493DA3F51BC82650006EE4EF /* Logo.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4916DF281BC67A0700E06432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4916DEDF1BC6789200E06432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4916DF201BC67A0700E06432;
+			remoteInfo = ContentBlocker;
+		};
+		4916DF3B1BC67A2000E06432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4916DEDF1BC6789200E06432 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4916DF321BC67A2000E06432;
+			remoteInfo = StopAdsAction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4916DF2E1BC67A0700E06432 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4916DF2A1BC67A0700E06432 /* ContentBlocker.appex in Embed App Extensions */,
+				4916DF3D1BC67A2000E06432 /* StopAdsAction.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4916DEE71BC6789200E06432 /* StopAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4916DEEA1BC6789200E06432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4916DEEF1BC6789200E06432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4916DEF11BC6789200E06432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4916DEF41BC6789200E06432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4916DEF61BC6789200E06432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4916DEFD1BC678E600E06432 /* Branch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Branch.framework; path = StopAds/Branch.framework; sourceTree = "<group>"; };
+		4916DF001BC6793900E06432 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4916DF011BC6793900E06432 /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
+		4916DF021BC6793900E06432 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4916DF031BC6793900E06432 /* WhiteListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteListViewController.swift; sourceTree = "<group>"; };
+		4916DF041BC6793900E06432 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		4916DF051BC6793900E06432 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		4916DF071BC6793900E06432 /* action-sheet.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "action-sheet.mov"; sourceTree = "<group>"; };
+		4916DF081BC6793900E06432 /* enable-app.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "enable-app.mov"; sourceTree = "<group>"; };
+		4916DF111BC679E100E06432 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4916DF121BC679E100E06432 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		4916DF131BC679E100E06432 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		4916DF141BC679E100E06432 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4916DF151BC679E100E06432 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4916DF161BC679E100E06432 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		4916DF211BC67A0700E06432 /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4916DF231BC67A0700E06432 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		4916DF251BC67A0700E06432 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		4916DF271BC67A0700E06432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4916DF331BC67A2000E06432 /* StopAdsAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StopAdsAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4916DF351BC67A2000E06432 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		4916DF381BC67A2000E06432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4916DF3A1BC67A2000E06432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4916DF411BC67A6900E06432 /* StopAds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StopAds.entitlements; sourceTree = "<group>"; };
+		4916DF421BC67A9000E06432 /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
+		4916DF431BC67ACD00E06432 /* StopAdsAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StopAdsAction.entitlements; sourceTree = "<group>"; };
+		4916DF441BC67B3D00E06432 /* StopAds-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StopAds-Bridging-Header.h"; sourceTree = "<group>"; };
+		4916DF541BC67FED00E06432 /* StopAdsAction.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = StopAdsAction.xcassets; sourceTree = "<group>"; };
+		4916DF561BC6815D00E06432 /* fonts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fonts.json; sourceTree = "<group>"; };
+		4916DF571BC6815D00E06432 /* images.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = images.json; sourceTree = "<group>"; };
+		4916DF581BC6815D00E06432 /* scripts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scripts.json; sourceTree = "<group>"; };
+		4916DF591BC6815D00E06432 /* social.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = social.json; sourceTree = "<group>"; };
+		4916DF611BC682AA00E06432 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		4916DF631BC682BA00E06432 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		4916DF651BC682C400E06432 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainInterface.strings"; sourceTree = "<group>"; };
+		4916DF671BC682D000E06432 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		4916DF691BC682E400E06432 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		4916DF6B1BC683A400E06432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4916DF6D1BC683A900E06432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4916DF6E1BC683AA00E06432 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4916DF6F1BC683AB00E06432 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4916DF701BC683AC00E06432 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4916DF711BC683AD00E06432 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4916DF721BC683AE00E06432 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4916DF741BC684B200E06432 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4916DF761BC684B500E06432 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		4916DF781BC684B800E06432 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		4916DF7A1BC684BB00E06432 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		4916DF7C1BC684BE00E06432 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		4916DF7E1BC684C300E06432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		493DA3F51BC82650006EE4EF /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4916DEE41BC6789200E06432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF171BC679E100E06432 /* AdSupport.framework in Frameworks */,
+				4916DF181BC679E100E06432 /* AVKit.framework in Frameworks */,
+				4916DF191BC679E100E06432 /* CoreSpotlight.framework in Frameworks */,
+				4916DF1A1BC679E100E06432 /* CoreTelephony.framework in Frameworks */,
+				4916DF1B1BC679E100E06432 /* MobileCoreServices.framework in Frameworks */,
+				4916DF1C1BC679E100E06432 /* SafariServices.framework in Frameworks */,
+				4916DEFE1BC678E600E06432 /* Branch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916DF1E1BC67A0700E06432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916DF301BC67A2000E06432 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4916DEDE1BC6789200E06432 = {
+			isa = PBXGroup;
+			children = (
+				4916DEE91BC6789200E06432 /* StopAds */,
+				4916DF221BC67A0700E06432 /* ContentBlocker */,
+				4916DF341BC67A2000E06432 /* StopAdsAction */,
+				4916DEFC1BC678AB00E06432 /* Frameworks */,
+				4916DEE81BC6789200E06432 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4916DEE81BC6789200E06432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4916DEE71BC6789200E06432 /* StopAds.app */,
+				4916DF211BC67A0700E06432 /* ContentBlocker.appex */,
+				4916DF331BC67A2000E06432 /* StopAdsAction.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4916DEE91BC6789200E06432 /* StopAds */ = {
+			isa = PBXGroup;
+			children = (
+				493DA3F51BC82650006EE4EF /* Logo.png */,
+				4916DF411BC67A6900E06432 /* StopAds.entitlements */,
+				4916DF041BC6793900E06432 /* iTunesArtwork */,
+				4916DF051BC6793900E06432 /* iTunesArtwork@2x */,
+				4916DF061BC6793900E06432 /* Videos */,
+				4916DEFF1BC6793900E06432 /* Controllers */,
+				4916DEEA1BC6789200E06432 /* AppDelegate.swift */,
+				4916DEEE1BC6789200E06432 /* Main.storyboard */,
+				4916DEF11BC6789200E06432 /* Assets.xcassets */,
+				4916DEF31BC6789200E06432 /* LaunchScreen.storyboard */,
+				4916DEF61BC6789200E06432 /* Info.plist */,
+				4916DF441BC67B3D00E06432 /* StopAds-Bridging-Header.h */,
+				4916DF6C1BC683A400E06432 /* Localizable.strings */,
+			);
+			path = StopAds;
+			sourceTree = "<group>";
+		};
+		4916DEFC1BC678AB00E06432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4916DF111BC679E100E06432 /* AdSupport.framework */,
+				4916DF121BC679E100E06432 /* AVKit.framework */,
+				4916DF131BC679E100E06432 /* CoreSpotlight.framework */,
+				4916DF141BC679E100E06432 /* CoreTelephony.framework */,
+				4916DF151BC679E100E06432 /* MobileCoreServices.framework */,
+				4916DF161BC679E100E06432 /* SafariServices.framework */,
+				4916DEFD1BC678E600E06432 /* Branch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4916DEFF1BC6793900E06432 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4916DF001BC6793900E06432 /* MainViewController.swift */,
+				4916DF011BC6793900E06432 /* TourViewController.swift */,
+				4916DF021BC6793900E06432 /* Utils.swift */,
+				4916DF031BC6793900E06432 /* WhiteListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4916DF061BC6793900E06432 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				4916DF071BC6793900E06432 /* action-sheet.mov */,
+				4916DF081BC6793900E06432 /* enable-app.mov */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		4916DF221BC67A0700E06432 /* ContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				4916DF421BC67A9000E06432 /* ContentBlocker.entitlements */,
+				4916DF561BC6815D00E06432 /* fonts.json */,
+				4916DF571BC6815D00E06432 /* images.json */,
+				4916DF581BC6815D00E06432 /* scripts.json */,
+				4916DF591BC6815D00E06432 /* social.json */,
+				4916DF231BC67A0700E06432 /* blockerList.json */,
+				4916DF251BC67A0700E06432 /* ActionRequestHandler.swift */,
+				4916DF271BC67A0700E06432 /* Info.plist */,
+			);
+			path = ContentBlocker;
+			sourceTree = "<group>";
+		};
+		4916DF341BC67A2000E06432 /* StopAdsAction */ = {
+			isa = PBXGroup;
+			children = (
+				4916DF431BC67ACD00E06432 /* StopAdsAction.entitlements */,
+				4916DF351BC67A2000E06432 /* ActionViewController.swift */,
+				4916DF371BC67A2000E06432 /* MainInterface.storyboard */,
+				4916DF3A1BC67A2000E06432 /* Info.plist */,
+				4916DF541BC67FED00E06432 /* StopAdsAction.xcassets */,
+			);
+			path = StopAdsAction;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4916DEE61BC6789200E06432 /* StopAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4916DEF91BC6789200E06432 /* Build configuration list for PBXNativeTarget "StopAds" */;
+			buildPhases = (
+				4916DEE31BC6789200E06432 /* Sources */,
+				4916DEE41BC6789200E06432 /* Frameworks */,
+				4916DEE51BC6789200E06432 /* Resources */,
+				4916DF2E1BC67A0700E06432 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4916DF291BC67A0700E06432 /* PBXTargetDependency */,
+				4916DF3C1BC67A2000E06432 /* PBXTargetDependency */,
+			);
+			name = StopAds;
+			productName = StopAds;
+			productReference = 4916DEE71BC6789200E06432 /* StopAds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4916DF201BC67A0700E06432 /* ContentBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4916DF2B1BC67A0700E06432 /* Build configuration list for PBXNativeTarget "ContentBlocker" */;
+			buildPhases = (
+				4916DF1D1BC67A0700E06432 /* Sources */,
+				4916DF1E1BC67A0700E06432 /* Frameworks */,
+				4916DF1F1BC67A0700E06432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContentBlocker;
+			productName = ContentBlocker;
+			productReference = 4916DF211BC67A0700E06432 /* ContentBlocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4916DF321BC67A2000E06432 /* StopAdsAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4916DF3E1BC67A2000E06432 /* Build configuration list for PBXNativeTarget "StopAdsAction" */;
+			buildPhases = (
+				4916DF2F1BC67A2000E06432 /* Sources */,
+				4916DF301BC67A2000E06432 /* Frameworks */,
+				4916DF311BC67A2000E06432 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StopAdsAction;
+			productName = StopAdsAction;
+			productReference = 4916DF331BC67A2000E06432 /* StopAdsAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4916DEDF1BC6789200E06432 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Luokey;
+				TargetAttributes = {
+					4916DEE61BC6789200E06432 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = HXPKXW7RJY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4916DF201BC67A0700E06432 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = HXPKXW7RJY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4916DF321BC67A2000E06432 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = HXPKXW7RJY;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4916DEE21BC6789200E06432 /* Build configuration list for PBXProject "StopAds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				de,
+				"zh-Hans",
+				ja,
+				ko,
+			);
+			mainGroup = 4916DEDE1BC6789200E06432;
+			productRefGroup = 4916DEE81BC6789200E06432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4916DEE61BC6789200E06432 /* StopAds */,
+				4916DF201BC67A0700E06432 /* ContentBlocker */,
+				4916DF321BC67A2000E06432 /* StopAdsAction */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4916DEE51BC6789200E06432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF0E1BC6793900E06432 /* iTunesArtwork@2x in Resources */,
+				4916DEF51BC6789200E06432 /* LaunchScreen.storyboard in Resources */,
+				4916DF0F1BC6793900E06432 /* action-sheet.mov in Resources */,
+				4916DF101BC6793900E06432 /* enable-app.mov in Resources */,
+				4916DF6A1BC683A400E06432 /* Localizable.strings in Resources */,
+				4916DEF21BC6789200E06432 /* Assets.xcassets in Resources */,
+				4916DEF01BC6789200E06432 /* Main.storyboard in Resources */,
+				4916DF0D1BC6793900E06432 /* iTunesArtwork in Resources */,
+				493DA3F61BC82650006EE4EF /* Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916DF1F1BC67A0700E06432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF5C1BC6815D00E06432 /* scripts.json in Resources */,
+				4916DF5A1BC6815D00E06432 /* fonts.json in Resources */,
+				4916DF241BC67A0700E06432 /* blockerList.json in Resources */,
+				4916DF5D1BC6815D00E06432 /* social.json in Resources */,
+				4916DF5B1BC6815D00E06432 /* images.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916DF311BC67A2000E06432 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF391BC67A2000E06432 /* MainInterface.storyboard in Resources */,
+				4916DF551BC67FED00E06432 /* StopAdsAction.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4916DEE31BC6789200E06432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF0B1BC6793900E06432 /* Utils.swift in Sources */,
+				4916DF0A1BC6793900E06432 /* TourViewController.swift in Sources */,
+				4916DF091BC6793900E06432 /* MainViewController.swift in Sources */,
+				4916DF0C1BC6793900E06432 /* WhiteListViewController.swift in Sources */,
+				4916DEEB1BC6789200E06432 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916DF1D1BC67A0700E06432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF261BC67A0700E06432 /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4916DF2F1BC67A2000E06432 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4916DF361BC67A2000E06432 /* ActionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4916DF291BC67A0700E06432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4916DF201BC67A0700E06432 /* ContentBlocker */;
+			targetProxy = 4916DF281BC67A0700E06432 /* PBXContainerItemProxy */;
+		};
+		4916DF3C1BC67A2000E06432 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4916DF321BC67A2000E06432 /* StopAdsAction */;
+			targetProxy = 4916DF3B1BC67A2000E06432 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4916DEEE1BC6789200E06432 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4916DEEF1BC6789200E06432 /* Base */,
+				4916DF741BC684B200E06432 /* fr */,
+				4916DF761BC684B500E06432 /* de */,
+				4916DF781BC684B800E06432 /* zh-Hans */,
+				4916DF7A1BC684BB00E06432 /* ja */,
+				4916DF7C1BC684BE00E06432 /* ko */,
+				4916DF7E1BC684C300E06432 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4916DEF31BC6789200E06432 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4916DEF41BC6789200E06432 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4916DF371BC67A2000E06432 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4916DF381BC67A2000E06432 /* Base */,
+				4916DF611BC682AA00E06432 /* fr */,
+				4916DF631BC682BA00E06432 /* de */,
+				4916DF651BC682C400E06432 /* zh-Hans */,
+				4916DF671BC682D000E06432 /* ja */,
+				4916DF691BC682E400E06432 /* ko */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		4916DF6C1BC683A400E06432 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4916DF6B1BC683A400E06432 /* Base */,
+				4916DF6D1BC683A900E06432 /* en */,
+				4916DF6E1BC683AA00E06432 /* fr */,
+				4916DF6F1BC683AB00E06432 /* de */,
+				4916DF701BC683AC00E06432 /* zh-Hans */,
+				4916DF711BC683AD00E06432 /* ja */,
+				4916DF721BC683AE00E06432 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4916DEF71BC6789200E06432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chino Bautista (N7785DPJET)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "44b1555d-977c-46f7-8810-3159a4f59b49";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4916DEF81BC6789200E06432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chino Bautista (N7785DPJET)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "44b1555d-977c-46f7-8810-3159a4f59b49";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4916DEFA1BC6789200E06432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = StopAds/StopAds.entitlements;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StopAds",
+				);
+				INFOPLIST_FILE = StopAds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chino.stopads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StopAds/StopAds-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4916DEFB1BC6789200E06432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = StopAds/StopAds.entitlements;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StopAds",
+				);
+				INFOPLIST_FILE = StopAds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chino.stopads;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StopAds/StopAds-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4916DF2C1BC67A0700E06432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chino.stopads.contentblocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "286cc3c2-16df-46aa-8e21-f4dbb4863d9b";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4916DF2D1BC67A0700E06432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chino.stopads.contentblocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "286cc3c2-16df-46aa-8e21-f4dbb4863d9b";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4916DF3F1BC67A2000E06432 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "BrandAsset-2";
+				CODE_SIGN_ENTITLEMENTS = StopAdsAction/StopAdsAction.entitlements;
+				INFOPLIST_FILE = StopAdsAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chino.stopads.action;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63502605-fa9e-4d83-bd24-96674739f545";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4916DF401BC67A2000E06432 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "BrandAsset-2";
+				CODE_SIGN_ENTITLEMENTS = StopAdsAction/StopAdsAction.entitlements;
+				INFOPLIST_FILE = StopAdsAction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chino.stopads.action;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "63502605-fa9e-4d83-bd24-96674739f545";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4916DEE21BC6789200E06432 /* Build configuration list for PBXProject "StopAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916DEF71BC6789200E06432 /* Debug */,
+				4916DEF81BC6789200E06432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4916DEF91BC6789200E06432 /* Build configuration list for PBXNativeTarget "StopAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916DEFA1BC6789200E06432 /* Debug */,
+				4916DEFB1BC6789200E06432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4916DF2B1BC67A0700E06432 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916DF2C1BC67A0700E06432 /* Debug */,
+				4916DF2D1BC67A0700E06432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4916DF3E1BC67A2000E06432 /* Build configuration list for PBXNativeTarget "StopAdsAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4916DF3F1BC67A2000E06432 /* Debug */,
+				4916DF401BC67A2000E06432 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4916DEDF1BC6789200E06432 /* Project object */;
+}

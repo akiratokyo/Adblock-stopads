@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  StopAds
+
+  Created by Xiaohu on 10/8/15.
+  Copyright © 2015 Luokey. All rights reserved.
+*/
+
+
+"ENABLE / DISABLE BLOCKING"             = "有効 / 無効 ブロッキング";
+"BLOCK RESOURCES WITH THESE FILETYPES"  = "これらのファイルタイプとブロックリソース";
+"PERSONALIZATION"                       = "個人化";
+"For more aggressive blocking, you can additionally block whole resource types you find nonessential. Blocking fonts includes certain web icons." = "より積極的なブロッキングのために、あなたは、さらにあなたが非必須見つける全体のリソース・タイプをブロックすることができます。フォントをブロックすると、特定のWebアイコンが含まれています。";
+
+"Ads and Tracking"                      = "広告および追跡";
+"Social Buttons and Comments"           = "ソーシャルボタンとコメント";
+"Images"                                = "イメージ";
+"Scripts"                               = "スクリプト";
+"Fonts"                                 = "フォント";
+"Whitelisted Sites"                     = "ホワイトリストサイト";
+
+"Delete"                                = "削除";

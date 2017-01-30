@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ObA-dk-sSI">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Image-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController title="Image" id="ObA-dk-sSI" customClass="ActionViewController" customModule="StopAdsAction" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="NOA-Dm-cuz">
+                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="StopAds" id="3HJ-uW-3hn">
+                                        <barButtonItem key="rightBarButtonItem" title="Done" style="done" id="WYi-yp-eM6">
+                                            <connections>
+                                                <action selector="done" destination="ObA-dk-sSI" id="Qdu-qn-U6V"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ga-4F-77Z">
+                                <rect key="frame" x="0.0" y="64" width="320" height="464"/>
+                                <animations/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Fdb-M0-707">
+                                <rect key="frame" x="0.0" y="64" width="320" height="464"/>
+                                <animations/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ActionCell" id="aXD-VG-rkJ" customClass="ActionCell" customModule="StopAdsAction" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aXD-VG-rkJ" id="gsQ-Z3-bh3">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gE2-AI-Opt">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                                    <subviews>
+                                                        <switch hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XYT-HD-lZh">
+                                                            <rect key="frame" x="256" y="6" width="51" height="31"/>
+                                                            <animations/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="31" id="RIX-yg-E05"/>
+                                                                <constraint firstAttribute="width" constant="49" id="nTh-RN-uYf"/>
+                                                            </constraints>
+                                                        </switch>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7y-eH-lRU">
+                                                            <rect key="frame" x="15" y="0.0" width="225" height="43"/>
+                                                            <animations/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <animations/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="XYT-HD-lZh" secondAttribute="trailing" constant="15" id="C68-5h-xm3"/>
+                                                        <constraint firstAttribute="bottom" secondItem="m7y-eH-lRU" secondAttribute="bottom" id="IQ5-gb-0Wt"/>
+                                                        <constraint firstItem="XYT-HD-lZh" firstAttribute="centerY" secondItem="gE2-AI-Opt" secondAttribute="centerY" id="LWO-Fc-cb9"/>
+                                                        <constraint firstItem="m7y-eH-lRU" firstAttribute="top" secondItem="gE2-AI-Opt" secondAttribute="top" id="dOJ-bd-3ws"/>
+                                                        <constraint firstItem="XYT-HD-lZh" firstAttribute="leading" secondItem="m7y-eH-lRU" secondAttribute="trailing" constant="16" id="sf9-65-ufM"/>
+                                                        <constraint firstItem="m7y-eH-lRU" firstAttribute="leading" secondItem="gE2-AI-Opt" secondAttribute="leading" constant="15" id="tmw-dx-YWU"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="gE2-AI-Opt" secondAttribute="bottom" id="5m1-1P-41A"/>
+                                                <constraint firstAttribute="trailing" secondItem="gE2-AI-Opt" secondAttribute="trailing" id="Bxs-5v-EsX"/>
+                                                <constraint firstItem="gE2-AI-Opt" firstAttribute="top" secondItem="gsQ-Z3-bh3" secondAttribute="top" id="jiB-3P-fT6"/>
+                                                <constraint firstItem="gE2-AI-Opt" firstAttribute="leading" secondItem="gsQ-Z3-bh3" secondAttribute="leading" id="l9n-cb-lkP"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <animations/>
+                                        <connections>
+                                            <outlet property="enableSwitch" destination="XYT-HD-lZh" id="b1a-0H-i90"/>
+                                            <outlet property="titleLabel" destination="m7y-eH-lRU" id="bx5-v7-U6D"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ObA-dk-sSI" id="rvj-Lx-BLX"/>
+                                    <outlet property="delegate" destination="ObA-dk-sSI" id="yAp-zl-EuL"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="NOA-Dm-cuz" secondAttribute="trailing" id="A05-Pj-hrr"/>
+                            <constraint firstAttribute="bottom" secondItem="9ga-4F-77Z" secondAttribute="bottom" id="DHD-fP-PXM"/>
+                            <constraint firstAttribute="bottom" secondItem="Fdb-M0-707" secondAttribute="bottom" id="EVS-LG-JjJ"/>
+                            <constraint firstItem="Fdb-M0-707" firstAttribute="top" secondItem="NOA-Dm-cuz" secondAttribute="bottom" id="FaM-hK-JZG"/>
+                            <constraint firstItem="9ga-4F-77Z" firstAttribute="top" secondItem="NOA-Dm-cuz" secondAttribute="bottom" id="Fps-3D-QQW"/>
+                            <constraint firstItem="NOA-Dm-cuz" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="HxO-8t-aoh"/>
+                            <constraint firstAttribute="trailing" secondItem="9ga-4F-77Z" secondAttribute="trailing" id="Ozw-Hg-0yh"/>
+                            <constraint firstAttribute="trailing" secondItem="Fdb-M0-707" secondAttribute="trailing" id="RJK-r2-Vr5"/>
+                            <constraint firstItem="9ga-4F-77Z" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="Skj-ee-4TC"/>
+                            <constraint firstItem="9ga-4F-77Z" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="XH5-ld-ONA"/>
+                            <constraint firstAttribute="trailing" secondItem="9ga-4F-77Z" secondAttribute="trailing" id="ccW-fO-WT2"/>
+                            <constraint firstItem="n38-gi-rB5" firstAttribute="top" secondItem="9ga-4F-77Z" secondAttribute="bottom" id="eQg-nn-Zy4"/>
+                            <constraint firstItem="9ga-4F-77Z" firstAttribute="top" secondItem="NOA-Dm-cuz" secondAttribute="bottom" id="f48-bu-T01"/>
+                            <constraint firstItem="Fdb-M0-707" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" id="gWS-zF-Omj"/>
+                            <constraint firstItem="NOA-Dm-cuz" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" id="we0-1t-bgp"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="actionTableView" destination="Fdb-M0-707" id="VE6-RB-HjG"/>
+                        <outlet property="imageView" destination="9ga-4F-77Z" id="5y6-5w-9QO"/>
+                        <outlet property="view" destination="zMn-AG-sqS" id="Qma-de-2ek"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="252" y="-124"/>
+        </scene>
+    </scenes>
+</document>
